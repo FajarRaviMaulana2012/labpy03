@@ -8,9 +8,21 @@ Latihan1.py
 Menampilkan ‘n’ bilangan acak yang lebih kecil dari 0.5 dengan perulangan for
 
 1.Buatlah program python baru, dan beri judul “latihan1” pada pychram
+
 2.masukan program di bawah ini
+
+![sc 
+program](https://user-images.githubusercontent.com/44745895/53285839-5315b900-3798-11e9-9be4-7968b139a522.png)
+
+
 3.lalu Run program tsb
+
 4.berikut hasilnya
+
+![sc 
+all](https://user-images.githubusercontent.com/44745895/53285845-632d9880-3798-11e9-90cf-2f0e5584d63d.png)
+
+
 5.Berikut penjelasan program diatas
 •	Import random fungsi ini akan mengembalikan bilangan float random n,dimana 0<n<1.fungsi Random() tidak memiliki parameter masukan
 •	n = int(input(“Masukan nilai n: “)) fungsi ini untuk menginput data dalam bentuk bilangan bulat
@@ -25,8 +37,17 @@ Latihan2.py
 Program untuk menampilkan bilangan terbesar dari n buah data yang diinputkan
 
 1.Masukan program di bawah ini
+
+![sc 
+program](https://user-images.githubusercontent.com/44745895/53285850-73de0e80-3798-11e9-805d-9e7809dc35d2.png)
+
 2.Run program tersebut
+
 3.Berikut hasilnya
+
+![sc 
+all](https://user-images.githubusercontent.com/44745895/53285854-86584800-3798-11e9-8d2e-90364fc05116.png)
+
 4.Berikut penjelasan program tersebut
 •	print(“menentukan bilangan terbesar dari n data”),,untuk menampilkan kalimat “menentukan bilangan terbesar dari n data”
 •	a = 0,,program untuk memberikan variabel a
@@ -47,8 +68,18 @@ Membuat program sederhana dengan perulangan: "program1".py
 Diketahui seorang pengusaha menginvestasikan uangnya untuk memulai usahanya dengan modal awal 100jt,pada bulan pertama belum mendapatkan laba. Pada bulan ke 3 baru mendapat laba sebesar 1% dan pada bulan ke 5 pendapatan meningkat 5%, Selanjutnya pada bulan ke 8 mengalami penurunan keuntungan sebesar 2%, sehingga laba menjadi 3%.
 
 1.Masukan program dibawah ini
+
+![sc 
+program](https://user-images.githubusercontent.com/44745895/53285859-9bcd7200-3798-11e9-9e14-7cbd323982c1.png)
+
+
 2.Run program tersebut
+
 3.dan berikut hasilnya
+
+![sc 
+all](https://user-images.githubusercontent.com/44745895/53285861-a6880700-3798-11e9-9175-4cf8ac6c81b1.png)
+
 4.Berikut penjelasan program tersebut
 •	a=100000000,,untuk memberikan variabel pada a,,disini a sebagai modal awal
 •	jml_laba=0,,untuk memberikan variabel pada jml_laba,,disini sebagai  total laba
