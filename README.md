@@ -1,40 +1,74 @@
 #labpy03
 
 
+
+
 Latihan1.py
 
 Menampilkan ëní bilangan acak yang lebih kecil dari 0.5 dengan perulangan for
 
 1.Buatlah program python baru, dan beri judul ìlatihan1î pada pychram
-
 2.masukan program di bawah ini
-
-![sc 
-program](https://user-images.githubusercontent.com/44745895/53279698-75321b80-3745-11e9-9459-c5a0ef9979cf.png)
-
-
-
 3.lalu Run program tsb
-
 4.berikut hasilnya
-
-![sc 
-all](https://user-images.githubusercontent.com/44745895/53279718-8f6bf980-3745-11e9-8b0f-4f85799ec887.png)
-
-
 5.Berikut penjelasan program diatas
-
 ï	Import random fungsi ini akan mengembalikan bilangan float random n,dimana 0<n<1.fungsi Random() tidak memiliki parameter masukan
-
 ï	n = int(input(ìMasukan nilai n: ì)) fungsi ini untuk menginput data dalam bentuk bilangan bulat
-
 ï	x=0 ,X disini sebagai variabel untuk menampilkan ìdata ke- ì
-
 ï	for i in range(n) : , sebagai perintah perulangan data dari variabel (n)
-
 ï	x = x+1,suatu perintah untuk memberikan nilai pada variabel x dimana nilai x akan bertambah 1 
-
 ï	i = random.uniform(0.0,0.5), maksud dari perintah ini i sebagai variabel untuk menampilkan data acak dengan batas awal sebesar 0.0 dan batas akhir 0.5
+ï	print(ìdata ke: ì,x,î=>î,i) untuk menampilkan ìdata ke :î dengan nila x & ì=>î dengan nilai i
 
-‚Ä¢	print(‚Äúdata ke: ‚Äú,x,‚Äù=>‚Äù,i) untuk menampilkan ‚Äúdata ke :‚Äù dengan 
-nila x & ‚Äú=>‚Äù dengan nilai i
+Latihan2.py
+
+Program untuk menampilkan bilangan terbesar dari n buah data yang diinputkan
+
+1.Masukan program di bawah ini
+2.Run program tersebut
+3.Berikut hasilnya
+4.Berikut penjelasan program tersebut
+ï	print(ìmenentukan bilangan terbesar dari n dataî),,untuk menampilkan kalimat ìmenentukan bilangan terbesar dari n dataî
+ï	a = 0,,program untuk memberikan variabel a
+ï	while true : ,,,adalah salah satu jenis pengulangan,anda dapat membuat kondisi tertentu dengan while. Biasanya digunakan untuk pengulangan tidak pasti
+ï	n = int(input(ìmasukan bilangan = ì)),,program untuk menginput bilangan pada variabel n
+ï	if a < n :,,,program yang artinya kondisi a lebih kecil dari n
+ï	a = n,,,artinya a sama dengan n
+ï	if a == 0 : break,,artinya,,jika nilai a sama dengan 0 maka program akan berhenti
+ï	print(ìbilangan terbesar= ì,a),,untuk menampilkan ìbilangan terbesar = ì nilai a
+ï	print(ìselesaiî),,untuk menampilkan kalimat penutup ìselesaiî
+
+
+
+Program1.py
+
+Membuat program sederhana dengan perulangan: "program1".py
+
+Diketahui seorang pengusaha menginvestasikan uangnya untuk memulai usahanya dengan modal awal 100jt,pada bulan pertama belum mendapatkan laba. Pada bulan ke 3 baru mendapat laba sebesar 1% dan pada bulan ke 5 pendapatan meningkat 5%, Selanjutnya pada bulan ke 8 mengalami penurunan keuntungan sebesar 2%, sehingga laba menjadi 3%.
+
+1.Masukan program dibawah ini
+2.Run program tersebut
+3.dan berikut hasilnya
+4.Berikut penjelasan program tersebut
+ï	a=100000000,,untuk memberikan variabel pada a,,disini a sebagai modal awal
+ï	jml_laba=0,,untuk memberikan variabel pada jml_laba,,disini sebagai  total laba
+ï	b=0,,untuk memberikan variabel b,,disini sebagai nilai dar bulan ke ñ
+ï	c=(int(0),int(0),int(a) * .1,int(a) * .1,int(a) * .5,int(a) * .5,int(a) * .5,int(a) * .2 ),,program untuk menentukan nilai dari persentase laba dikali modal awal
+ï	print(ìmodal pengusaha : ì,a),,program untuk menampilkan ìmodal pengusaha : ì a,,a sebagai modal awal
+ï	for i in c :,,program perulangan untuk memasukan nilai c kedalam i
+ï	jml_laba : jml_laba+I,,program untuk menentukan nilai dari total laba
+ï	b=b+1,,program untuk menentukan nilai dari ìbulan ke-ì
+ï	print("laba bulan ke- ",b,"sebesar : ",i),,program untuk menampilkan ìlaba bulan ke-ì sebesar b
+ï	print("Total Laba Adalah : ",jml_laba),,program untuk menampilkan ìTotal Laba Adalah :î sebesar jml_laba
+
+SEKIAN 
+
+FAJAR RAVI MAULANA
+18.TI.B1
+    
+
+
+
+
+
+
