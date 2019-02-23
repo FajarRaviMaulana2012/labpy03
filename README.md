@@ -35,3 +35,6 @@ all](https://user-images.githubusercontent.com/44745895/53279718-8f6bf980-3745-1
 �	x = x+1,suatu perintah untuk memberikan nilai pada variabel x dimana nilai x akan bertambah 1 
 
 �	i = random.uniform(0.0,0.5), maksud dari perintah ini i sebagai variabel untuk menampilkan data acak dengan batas awal sebesar 0.0 dan batas akhir 0.5
+
+•	print(“data ke: “,x,”=>”,i) untuk menampilkan “data ke :” dengan 
+nila x & “=>” dengan nilai i
