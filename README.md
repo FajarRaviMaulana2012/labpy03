@@ -9,12 +9,17 @@ Menampilkan ‘n’ bilangan acak yang lebih kecil dari 0.5 dengan perulangan for
 
 2.masukan program di bawah ini
 
+![sc 
+program](https://user-images.githubusercontent.com/44745895/53279698-75321b80-3745-11e9-9459-c5a0ef9979cf.png)
+
 
 
 3.lalu Run program tsb
 
 4.berikut hasilnya
 
+![sc 
+all](https://user-images.githubusercontent.com/44745895/53279718-8f6bf980-3745-11e9-8b0f-4f85799ec887.png)
 
 
 5.Berikut penjelasan program diatas
