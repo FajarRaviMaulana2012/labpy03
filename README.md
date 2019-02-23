@@ -2,12 +2,11 @@
 
 
 
-
 Latihan1.py
 
-Menampilkan ‘n’ bilangan acak yang lebih kecil dari 0.5 dengan perulangan for
+Menampilkan â€˜nâ€™ bilangan acak yang lebih kecil dari 0.5 dengan perulangan for
 
-1.Buatlah program python baru, dan beri judul “latihan1” pada pychram
+1.Buatlah program python baru, dan beri judul â€œlatihan1â€ pada pychram
 
 2.masukan program di bawah ini
 
@@ -25,19 +24,19 @@ all](https://user-images.githubusercontent.com/44745895/53285845-632d9880-3798-1
 
 5.Berikut penjelasan program diatas
 
-•	Import random fungsi ini akan mengembalikan bilangan float random n,dimana 0<n<1.fungsi Random() tidak memiliki parameter masukan
+â€¢	Import random fungsi ini akan mengembalikan bilangan float random n,dimana 0<n<1.fungsi Random() tidak memiliki parameter masukan
 
-•	n = int(input(“Masukan nilai n: “)) fungsi ini untuk menginput data dalam bentuk bilangan bulat
+â€¢	n = int(input(â€œMasukan nilai n: â€œ)) fungsi ini untuk menginput data dalam bentuk bilangan bulat
 
-•	x=0 ,X disini sebagai variabel untuk menampilkan “data ke- “
+â€¢	x=0 ,X disini sebagai variabel untuk menampilkan â€œdata ke- â€œ
 
-•	for i in range(n) : , sebagai perintah perulangan data dari variabel (n)
+â€¢	for i in range(n) : , sebagai perintah perulangan data dari variabel (n)
 
-•	x = x+1,suatu perintah untuk memberikan nilai pada variabel x dimana nilai x akan bertambah 1 
+â€¢	x = x+1,suatu perintah untuk memberikan nilai pada variabel x dimana nilai x akan bertambah 1 
 
-•	i = random.uniform(0.0,0.5), maksud dari perintah ini i sebagai variabel untuk menampilkan data acak dengan batas awal sebesar 0.0 dan batas akhir 0.5
+â€¢	i = random.uniform(0.0,0.5), maksud dari perintah ini i sebagai variabel untuk menampilkan data acak dengan batas awal sebesar 0.0 dan batas akhir 0.5
 
-•	print(“data ke: “,x,”=>”,i) untuk menampilkan “data ke :” dengan nila x & “=>” dengan nilai i
+â€¢	print(â€œdata ke: â€œ,x,â€=>â€,i) untuk menampilkan â€œdata ke :â€ dengan nila x & â€œ=>â€ dengan nilai i
 
 
 Latihan2.py
@@ -58,23 +57,23 @@ all](https://user-images.githubusercontent.com/44745895/53285854-86584800-3798-1
 
 4.Berikut penjelasan program tersebut
 
-•	print(“menentukan bilangan terbesar dari n data”),,untuk menampilkan kalimat “menentukan bilangan terbesar dari n data”
+â€¢	print(â€œmenentukan bilangan terbesar dari n dataâ€),,untuk menampilkan kalimat â€œmenentukan bilangan terbesar dari n dataâ€
 
-•	a = 0,,program untuk memberikan variabel a
+â€¢	a = 0,,program untuk memberikan variabel a
 
-•	while true : ,,,adalah salah satu jenis pengulangan,anda dapat membuat kondisi tertentu dengan while. Biasanya digunakan untuk pengulangan tidak pasti
+â€¢	while true : ,,,adalah salah satu jenis pengulangan,anda dapat membuat kondisi tertentu dengan while. Biasanya digunakan untuk pengulangan tidak pasti
 
-•	n = int(input(“masukan bilangan = “)),,program untuk menginput bilangan pada variabel n
+â€¢	n = int(input(â€œmasukan bilangan = â€œ)),,program untuk menginput bilangan pada variabel n
 
-•	if a < n :,,,program yang artinya kondisi a lebih kecil dari n
+â€¢	if a < n :,,,program yang artinya kondisi a lebih kecil dari n
 
-•	a = n,,,artinya a sama dengan n
+â€¢	a = n,,,artinya a sama dengan n
 
-•	if a == 0 : break,,artinya,,jika nilai a sama dengan 0 maka program akan berhenti
+â€¢	if a == 0 : break,,artinya,,jika nilai a sama dengan 0 maka program akan berhenti
 
-•	print(“bilangan terbesar= “,a),,untuk menampilkan “bilangan terbesar = “ nilai a
+â€¢	print(â€œbilangan terbesar= â€œ,a),,untuk menampilkan â€œbilangan terbesar = â€œ nilai a
 
-•	print(“selesai”),,untuk menampilkan kalimat penutup “selesai”
+â€¢	print(â€œselesaiâ€),,untuk menampilkan kalimat penutup â€œselesaiâ€
 
 
 
@@ -100,25 +99,25 @@ all](https://user-images.githubusercontent.com/44745895/53285861-a6880700-3798-1
 
 4.Berikut penjelasan program tersebut
 
-•	a=100000000,,untuk memberikan variabel pada a,,disini a sebagai modal awal
+â€¢	a=100000000,,untuk memberikan variabel pada a,,disini a sebagai modal awal
 
-•	jml_laba=0,,untuk memberikan variabel pada jml_laba,,disini sebagai  total laba
+â€¢	jml_laba=0,,untuk memberikan variabel pada jml_laba,,disini sebagai  total laba
 
-•	b=0,,untuk memberikan variabel b,,disini sebagai nilai dar bulan ke –
+â€¢	b=0,,untuk memberikan variabel b,,disini sebagai nilai dar bulan ke â€“
 
-•	c=(int(0),int(0),int(a) * .1,int(a) * .1,int(a) * .5,int(a) * .5,int(a) * .5,int(a) * .2 ),,program untuk menentukan nilai dari persentase laba dikali modal awal
+â€¢	c=(int(0),int(0),int(a) * .1,int(a) * .1,int(a) * .5,int(a) * .5,int(a) * .5,int(a) * .2 ),,program untuk menentukan nilai dari persentase laba dikali modal awal
 
-•	print(“modal pengusaha : “,a),,program untuk menampilkan “modal pengusaha : “ a,,a sebagai modal awal
+â€¢	print(â€œmodal pengusaha : â€œ,a),,program untuk menampilkan â€œmodal pengusaha : â€œ a,,a sebagai modal awal
 
-•	for i in c :,,program perulangan untuk memasukan nilai c kedalam i
+â€¢	for i in c :,,program perulangan untuk memasukan nilai c kedalam i
 
-•	jml_laba : jml_laba+I,,program untuk menentukan nilai dari total laba
+â€¢	jml_laba : jml_laba+I,,program untuk menentukan nilai dari total laba
 
-•	b=b+1,,program untuk menentukan nilai dari “bulan ke-“
+â€¢	b=b+1,,program untuk menentukan nilai dari â€œbulan ke-â€œ
 
-•	print("laba bulan ke- ",b,"sebesar : ",i),,program untuk menampilkan “laba bulan ke-“ sebesar b
+â€¢	print("laba bulan ke- ",b,"sebesar : ",i),,program untuk menampilkan â€œlaba bulan ke-â€œ sebesar b
 
-•	print("Total Laba Adalah : ",jml_laba),,program untuk menampilkan “Total Laba Adalah :” sebesar jml_laba
+â€¢	print("Total Laba Adalah : ",jml_laba),,program untuk menampilkan â€œTotal Laba Adalah :â€ sebesar jml_laba
 
 
 SEKIAN 
